@@ -1,0 +1,25 @@
+{
+  "name": "websocket-service",
+  "version": "0.1.0",
+  "description": "Simple Websocket based RPC library",
+  "main": "index.js",
+  "author": "Oleksii Rumiantsev <rumiantsev.oleksii@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-rumiantsev/websocket-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/o-rumiantsev/websocket-service/issues"
+  },
+  "homepage": "https://github.com/o-rumiantsev/websocket-service#readme",
+  "license": "MIT",
+  "scripts": {
+    "fmt": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "websocket": "^1.0.30"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
